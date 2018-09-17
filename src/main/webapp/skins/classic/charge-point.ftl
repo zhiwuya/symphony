@@ -35,15 +35,15 @@
                         <h2 class="sub-head"><span class="ft-red">♦</span> ${chargePointLabel}</h2>
                         <div class="content-reset fn-content">
                             <div class="fn-clear">
-                                <img class="fn-left" width="45%" src="https://static.b3log.org/images/alipay-donate.jpg">
-                                <img class="fn-right" width="45%" src="https://static.b3log.org/images/wechat-donate.jpg">
+                                <img class="fn-left" width="45%" src="${staticServePath}/images/alipay-donate.jpg">
+                                <img class="fn-right" width="45%" src="${staticServePath}/images/wechat-donate.jpg">
                             </div>
                             <br>
                             <ul>
-                                <li>转账时请在备注里填写你的黑客派用户名</li>
-                                <li>如果你忘记填写用户名（扫码转账可能无法输入备注），可以<a href="${servePath}/post?type=1&tags=充值积分&at=88250">点此发帖</a>：
+                                <li>转账时请在备注里填写你的kettle方便门用户名</li>
+                                <li>如果你忘记填写用户名（扫码转账可能无法输入备注），可以<a href="${servePath}/post?type=1&tags=充值积分&at=nivalsoul">点此发帖</a>：
                                     <ul>
-                                        <li>在内容中 <code>@88250</code></li>
+                                        <li>在内容中 <code>@nivalsoul</code></li>
                                         <li>附上交易号末 <code>4</code> 位</li>
                                     </ul>
                                 </li>
