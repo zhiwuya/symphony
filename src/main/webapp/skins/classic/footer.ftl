@@ -21,7 +21,7 @@
     <div class="wrapper">
         <div class="slogan">
         ${indexIntroLabel} &nbsp; &nbsp;
-            <a href="https://github.com/b3log/symphony" target="_blank" class="tooltipped tooltipped-n"
+            <a href="https://github.com/zhiwuya/symphony" target="_blank" class="tooltipped tooltipped-n"
                aria-label="${siteCodeLabel}">
                 <svg class="icon-github">
                     <use xlink:href="#github"></use>
@@ -49,7 +49,8 @@
                 <a href="${servePath}/tags">${tagLabel}</a>
                 <a href="${servePath}/statistic">${dataStatLabel}</a>
                 <div class="fn-right">
-                    <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+                    © ${year}
+                    <a rel="copyright" href="http://kcd.nivalsoul.cn" target="_blank">kcd.nivalsoul.cn</a>
                 ${visionLabel}
                 </div>
             </div>
@@ -59,7 +60,7 @@
                     <#if footerBeiAnHao != ''>
                         <a href="http://www.miitbeian.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
                     </#if>
-                    © ${year} <a href="https://b3log.org" target="_blank">B3log 开源</a>旗下云南链滴科技有限公司版权所有 •
+                    Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a>•
                     <a href="https://sym.b3log.org" target="_blank">Sym</a>
                 ${version} • ${elapsed?c}ms
                 </div>

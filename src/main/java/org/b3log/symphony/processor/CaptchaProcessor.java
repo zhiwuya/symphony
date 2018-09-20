@@ -225,6 +225,7 @@ public class CaptchaProcessor {
         ret.add(Font.SERIF);
         ret.add(Font.SANS_SERIF);
         ret.add(Font.MONOSPACED);
+        LOGGER.info("fonts="+ret);
 
         return ret;
     }

@@ -20,7 +20,8 @@
 <div class="footer">
     <div class="wrapper ft-smaller">
         <div class="footer-nav">
-            <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+            © ${year}
+            <a rel="copyright" href="http://kcd.nivalsoul.cn" target="_blank">kcd.nivalsoul.cn</a>
         ${visionLabel}
         </div>
         <div class="fn-hr5"></div>
@@ -29,8 +30,7 @@
         </div>
         <div class="fn-hr5"></div>
         <div>
-            © ${year} <a href="https://b3log.org" target="_blank">B3log 开源</a>旗下云南链滴科技有限公司版权所有
-            <div class="fn-hr5"></div>
+            Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a>•
             <a href="https://sym.b3log.org" target="_blank">Sym</a>
         ${version} • ${elapsed?c}ms
         </div>

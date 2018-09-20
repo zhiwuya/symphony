@@ -32,8 +32,8 @@
             <div class="wrapper verify">
                 <div class="verify-wrap">
                     <div class="form">
-                        <svg><use xlink:href="#logo"></use></svg>
-
+                        <#--<svg><use xlink:href="#logo"></use></svg>-->
+                        <div><img src="${staticServePath}/images/hacpai.png"></div>
                         <div class="input-wrap">
                             <svg><use xlink:href="#userrole"></use></svg>
                             <input type="text" id="registerUserName2" value="${user.userName}" readonly="readonly" placeholder="${userNameLabel}" autocomplete="off" />

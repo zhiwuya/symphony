@@ -32,7 +32,8 @@
             <div class="wrapper verify">
                 <div class="verify-wrap">
                     <div class="form">
-                        <svg><use xlink:href="#logo"></use></svg>
+                        <#--<svg><use xlink:href="#logo"></use></svg>-->
+                        <div><img src="${staticServePath}/images/hacpai.png"></div>
                         <div class="input-wrap">
                             <svg><use xlink:href="#userrole"></use></svg>
                             <input id="nameOrEmail" type="text" autofocus="autofocus" placeholder="${nameOrEmailLabel}" autocomplete="off" />

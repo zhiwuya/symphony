@@ -22,7 +22,8 @@
         <div class="head-fn fn-left">
             <h1>
                 <a href="${servePath}" aria-label="${symphonyLabel}">
-                    <svg><use xlink:href="#logo"></use></svg>
+                    <#--<svg><use xlink:href="#logo"></use></svg>-->
+                    <img src="${staticServePath}/images/hacpai.png" style="margin-top:-16px">
                 </a>
             </h1>
         </div>

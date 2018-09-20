@@ -89,7 +89,7 @@
             </div>
             <div class="index__bottom">
                 <div class="wrapper">
-                    <div class="fn-flex-1">
+                    <#--<div class="fn-flex-1">
                         <div class="metro-line fn-flex">
                             <div class="metro-item">
                                 <a class="preview" href="${servePath}/tag/${tag0.tagURI}">
@@ -207,7 +207,7 @@
                             <div class="red"></div>
                             <div class="purple"></div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
